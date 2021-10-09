@@ -99,12 +99,42 @@
   text-align: right;
 }
 
-.pos {
+#pos {
   position: relative;
+  display: inline-block;
   text-align: center;
   padding-top: 1em;
   font-size: 20pt;
+  font-family: 'Russo One', sans-serif; 
 }
+
+  .hello {
+    color:blue;
+    float: left;
+    font-family: 'Russo One', sans-serif; 
+  }
+
+  .world {
+    color:white;
+    float:left; 
+    padding-left: 0.2em;
+    font-family: 'Russo One', sans-serif; 
+  }
+
+  .iamname{
+  color: red;
+  position: relative;
+  padding-top: 5em;
+  font-family: 'Russo One', sans-serif; 
+  }
+
+  .russian {
+    color: gray
+  }
+
+  .majorandminor {
+    color:teal
+  }
 
 /* top navigation bar */
 
