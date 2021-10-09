@@ -1,10 +1,11 @@
 .main {
+    position: relative;
     z-index: 9000;
     color: white;
     text-shadow: 1px 1px black;
     font-family: 'Montserrat', sans-seri f;
     text-align: center;
-    padding-top: 18em;
+    padding-top: 5em;
 }
 
   .mainp {
@@ -99,8 +100,9 @@
 }
 
 .pos {
+  position: relative;
   text-align: center;
-  padding-top: 10em;
+  padding-top: 1em;
   font-size: 20pt;
 }
 
