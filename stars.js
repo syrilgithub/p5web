@@ -24,7 +24,7 @@ function setup() {
 }
 
 function draw() {
-  background(20)
+  background(0)
   noStroke();
   for (const star of starlist) {
     star.render();

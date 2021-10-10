@@ -41,10 +41,9 @@
   z-index: 9001;
   padding: 10px;
   padding-bottom: 100px;
-  background-image: url('grad.jpeg');
   background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.432);
   background-size: cover;
-  background-color: black;
   border: 5px solid black;;
   
 }
@@ -62,6 +61,7 @@
   text-shadow: 1px 1px black;
   font-family: 'Montserrat', sans-seri f;
   text-align: left;
+  font-size: 21px;
   text-shadow: 15px;
 }
 
@@ -87,50 +87,59 @@
 /* projects page */
 
 .discord-bots-projects {
-  color: white;
+  color: cyan;
   text-align: right;
+  overflow: hidden;
+  font-size: 18px;
+  font-family: 'Russo One', sans-serif;
+  text-shadow: 2px 2px black;
 }
 
 .garrys-mod-projects {
-  color: white;
+  font-family: 'Russo One', sans-serif; 
+  overflow: hidden;
+  font-size: 18px;
+  color: cyan;
+  text-shadow: 2px 2px black;
 }
 .mtsi-it-support {
-  color: white;
+  color: cyan;
+  overflow: hidden;
+  font-size: 18px;
+  font-family: 'Russo One', sans-serif; 
   text-align: right;
+  text-shadow: 2px 2px black;
 }
 
-#pos {
+.pos {
   position: relative;
-  display: inline-block;
-  text-align: center;
-  padding-top: 1em;
-  font-size: 20pt;
-  font-family: 'Russo One', sans-serif; 
+  margin-left: 35%;
+  margin-right: 15%;
+  font-size: 24pt;
+  text-align: left;
+  text-shadow: 2px 2px black;
 }
 
-  .hello {
+  #hello {
     color:blue;
-    float: left;
     font-family: 'Russo One', sans-serif; 
   }
 
-  .world {
+  #world {
     color:white;
-    float:left; 
-    padding-left: 0.2em;
-    font-family: 'Russo One', sans-serif; 
+    font-family: 'Russo One', sans-serif;
   }
 
-  .iamname{
-  color: red;
-  position: relative;
-  padding-top: 5em;
+  .iam{ 
+  color: blue;
   font-family: 'Russo One', sans-serif; 
   }
 
-  .russian {
-    color: gray
+  .iamname {
+    color: white;
+    font-family: 'Russo One', sans-serif;
   }
+
 
   .majorandminor {
     color:teal
@@ -140,16 +149,16 @@
 
 .navi {
     list-style-type: none;
-    border: 5px solid black;
+    border: 1px solid rgba(255, 255, 255, 0.623);
     margin: 15px;
     margin-left: 0px;
     margin-right: 40px;
     padding: 5px;
     overflow: hidden;
-    font-family: 'Comfortaa', cursive;
-    background: url('grad.jpeg');
+    font-family: 'Russo One', sans-serif;
+    text-shadow: 1px 1px black;
+    background-color: black;
     background-repeat: no-repeat;
-    
     background-size: cover;
   }
   
@@ -159,12 +168,13 @@
   
   li a {
     display: block;
-    color: white;
+    font-size: 15pt;
+    color: blue;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
   
   li a:hover {
-    background-color: black;
+    background-color: lightsteelblue;
   }
