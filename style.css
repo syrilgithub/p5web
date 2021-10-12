@@ -22,7 +22,7 @@
   width: auto;
   height: 50em;
   background-color: black;
-  border: 5px solid black;;
+  border: 5px solid black;
   margin: 0;
 }
 
@@ -33,18 +33,16 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: black;
-  border: 5px solid black;;
+  border: 5px solid black;
   margin: 0;
 }
 
 .block3 {
   z-index: 9001;
-  padding: 10px;
-  padding-bottom: 100px;
   background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.432);
   background-size: cover;
-  border: 5px solid black;;
+  border: 5px solid black;
   
 }
 
@@ -112,9 +110,9 @@
 }
 
 .pos {
-  position: relative;
-  margin-left: 35%;
-  margin-right: 15%;
+  position: absolute;
+  margin-left: 40%;
+  margin-right: 10%;
   font-size: 24pt;
   text-align: left;
   text-shadow: 2px 2px black;
@@ -130,24 +128,20 @@
     font-family: 'Russo One', sans-serif;
   }
 
-  .iam{ 
+  #iam{ 
   color: blue;
   font-family: 'Russo One', sans-serif; 
   }
 
-  .iamname {
+  #iamname {
     color: white;
     font-family: 'Russo One', sans-serif;
   }
 
 
-  .majorandminor {
-    color:teal
-  }
-
 /* top navigation bar */
 
-.navi {
+#navi {
     list-style-type: none;
     border: 1px solid rgba(255, 255, 255, 0.623);
     margin: 15px;

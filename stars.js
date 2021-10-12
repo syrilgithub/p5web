@@ -2,22 +2,22 @@ const starlist = []
 
 class Star {
 	constructor() {
-		this.x = random(width);
-		this.y = random(height);
-		this.size = random(0.25, 3);
+		this.x = random(displayWidth);
+		this.y = random(displayHeight);
+		this.size = random(0.25, 4);
 		this.t = random(TAU);
 	}
 	
 	render() {
 		this.t += 0.1;
-		var scale = this.size + sin(this.t) * 2;
+		var scale = this.size + sin(this.t) * .8;
 		noStroke();
 		ellipse(this.x, this.y, scale, scale);
 	}
 }
 
 function setup() {
-  let c = createCanvas (displayWidth, displayHeight);
+  let c = createCanvas (windowWidth, windowHeight);
   c.position(0,0)
   c.style('z-index', '-1')
   createstar();
