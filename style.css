@@ -124,6 +124,8 @@
   text-shadow: 2px 2px black;
 }
 
+/* home page stuff */
+
   #hello {
     color:blue;
     font-family: 'Russo One', sans-serif; 
@@ -144,6 +146,17 @@
     font-family: 'Russo One', sans-serif;
   }
 
+  /* blog stuff */
+  .blog-header {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+  }
+  .blog-header-section {
+    background: red;
+  }
+
 
 /* top navigation bar */
 
@@ -156,7 +169,6 @@
     padding: 5px;
     overflow: hidden;
     font-family: 'Russo One', sans-serif;
-    text-shadow: 1px 1px black;
     /* background-color: black; */
     /* background-repeat: no-repeat; */
     background-size: cover;
@@ -170,12 +182,12 @@
     display: block;
     font-size: 15pt;
     color: blue;
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 2px lightskyblue;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
   
   li a:hover {
-    background-color: lightsteelblue;
+    background-color: lightskyblue;
   }
