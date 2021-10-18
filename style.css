@@ -95,17 +95,23 @@
 
 .garrys-mod-projects {
   font-family: 'Russo One', sans-serif; 
-  overflow: hidden;
   font-size: 18px;
   color: cyan;
   text-shadow: 2px 2px black;
 }
 .mtsi-it-support {
   color: cyan;
-  overflow: hidden;
   font-size: 18px;
   font-family: 'Russo One', sans-serif; 
   text-align: right;
+  text-shadow: 2px 2px black;
+}
+
+.pen-testing {
+  color: cyan;
+  font-size: 18px;
+  font-family: 'Russo One', sans-serif; 
+  text-align: left;
   text-shadow: 2px 2px black;
 }
 
@@ -143,7 +149,7 @@
 
 #navi {
     list-style-type: none;
-    border: 1px solid rgba(255, 255, 255, 0.623);
+   /* border: 1px solid rgba(255, 255, 255, 0.623); */
     margin: 15px;
     margin-left: 0px;
     margin-right: 40px;
@@ -151,8 +157,8 @@
     overflow: hidden;
     font-family: 'Russo One', sans-serif;
     text-shadow: 1px 1px black;
-    background-color: black;
-    background-repeat: no-repeat;
+    /* background-color: black; */
+    /* background-repeat: no-repeat; */
     background-size: cover;
   }
   
@@ -164,6 +170,7 @@
     display: block;
     font-size: 15pt;
     color: blue;
+    text-shadow: 2px 2px black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
